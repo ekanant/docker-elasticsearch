@@ -1,4 +1,4 @@
-FROM openjdk/8u151-jre-alpine3.7
+FROM openjdk:8u151-jre-alpine3.7
 MAINTAINER ekanant2535@gmail.com
 
 # Export HTTP & Transport
