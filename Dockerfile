@@ -1,5 +1,5 @@
-FROM quay.io/pires/docker-jre:8u151_cpufix
-MAINTAINER pjpires@gmail.com
+FROM openjdk/8u151-jre-alpine3.7
+MAINTAINER ekanant2535@gmail.com
 
 # Export HTTP & Transport
 EXPOSE 9200 9300
